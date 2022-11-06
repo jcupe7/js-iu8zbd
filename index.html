@@ -1,0 +1,75 @@
+<style>
+iframe[src*="datawrapper.dwcdn.net"] + img {
+    display: none;
+}
+
+@media print {
+    iframe[src*="datawrapper.dwcdn.net"] {
+        display: none;
+    }
+    iframe[src*="datawrapper.dwcdn.net"] + img {
+        display: block;
+        width: 100%;
+    }
+}    
+</style>
+
+Nombre: Javier Cupeiro Martín <br />
+
+Url: <a href="https://js-iu8zbd.stackblitz.io">https://js-iu8zbd.stackblitz.io</a><br />
+GitHub: <a href="https://github.com/jcupe7">https://github.com/jcupe7</a><br />
+
+<h1>Visualización – AG1</h1>
+<h2>Google Sheets</h2>
+<h3>Gráfico de barras CO2 totales Mt 2019</h3>
+Mediante Google Sheets creamos este diagrama de barras. Este tipo de gráfico nos permite que de un simple vistazo podamos comparar los datos de los diferentes países. <br/>
+Para que la información se mostrase de forma clara se ha colocado en el eje Y los nombres de los países, mientras que en el eje X se muestran los valores de CO2 de cada uno de ellos.
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNkaJiDXtmFN8ySxzI6YQ6J8TA7OhIQOX5eraE0usO-BmGt7wciBVozRseWij9halxdIkFa5aBegig/pubchart?oid=205229690&amp;format=interactive"></iframe>
+<br />
+
+
+<h3>Punto extra: Gráficos Combinados. Múltiples Variables.</h3><br />
+TComo pedía el enunciado, se han mostrado las diferentes variables en un mismo gráfico. En este caso se mezclan columnas con lineas. En este caso podemos ver que no es una buena idea mezclarlos ya que dificulta la comprensión de la información.<br />
+<iframe
+  width="600"
+  height="371"
+  seamless
+  frameborder="0"
+  scrolling="no"
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNkaJiDXtmFN8ySxzI6YQ6J8TA7OhIQOX5eraE0usO-BmGt7wciBVozRseWij9halxdIkFa5aBegig/pubchart?oid=1920392655&amp;format=interactive"
+></iframe
+><br /><br />
+
+
+<div class="DataWrapper">
+<p>
+<h2> Datawrapper</h2>
+<h3> Diagrama de dispersión</h3>
+Mediante Datawrapper creamos el siguiente diagrama de dispersión, donde marcamos en rojo los valores de CO2 respectivos a China y España. Además se han añadido varias etiquetas de valores(países) que están más dispersos.<br /><br />
+
+<iframe title="CO2 Per Capita/ CO2 Totales" aria-label="Scatter Plot" id="datawrapper-chart-lElNd" src="https://datawrapper.dwcdn.net/lElNd/3/" scrolling="no" frameborder="0" style="border: none;" width="600" height="400" data-external="1"></iframe>
+<img src="https://datawrapper.dwcdn.net/lElNd/full.png"/>
+<br />
+
+<h3>Punto extra: Gráficos de barras separando continentes.</h3>
+Para este ejercicio se han cogido los datos correspondientes de 2018 de la web de Expasión.
+Se ordenaron todos los datos apra conseguir los 10 países que más emisiones de CO2 que emitieron. 
+Tras conseguir la lista de 10 en datawrapper se ha generado el siguiente diagrama de barras.
+Recalcar que ha sido muy tedioso trabajar con los datos que ofrece la web Expansión ya que el estilo de las comas y puntos difieren mucho de como trabaja Google Sheets y Datawrapper. <br /><br />
+  <iframe
+  title="Top 10 Emisiones CO2 en 2018 "
+  aria-label="Bar Chart"
+  id="datawrapper-chart-OdFvy"
+  src="https://datawrapper.dwcdn.net/OdFvy/2/"
+  scrolling="no"
+  frameborder="0"
+  style="border: none"
+  width="600"
+  height="425"
+  data-external="1"
+  ></iframe>
+  <img src="https://datawrapper.dwcdn.net/OdFvy/full.png"/>
+
+<br />
+</p>
+</div>
